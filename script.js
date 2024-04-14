@@ -1,6 +1,6 @@
 $('button').on('mouseover',function() {
   $(this).css({
-button.style.left = `${Math.ceil(Math.random() * 90)}%`;
-    button.style.top = `${Math.ceil(Math.random() * 30)}%`;
+    top: (Math.random()*30)+'90%',
+    left: (Math.random()*30)+'50%' 
   });
 });
