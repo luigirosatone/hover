@@ -24,6 +24,14 @@ button2 {
   font: helvetica;
   align: center;
 }
+<style>
+  .red-text {
+    color: red;
+  }
+  .blue-text {
+    color: blue;
+  }
+</style>
 
 
 
@@ -33,10 +41,3 @@ button2 {
 
 
 
-
-$('button').on('mouseover',function() {
-  $(this).css({
-    top: (Math.random()*90)+'0%',
-    left: (Math.random()*30)+'50%' 
-  });
-});
