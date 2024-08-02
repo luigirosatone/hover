@@ -1,6 +1,6 @@
 button {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 10%;
   background: SlateBlue;
   color: black;
@@ -13,7 +13,7 @@ button {
 }
 button2 {
   position: absolute;
-  top: 50%;
+  top: 10%;
   left: 50%;
   background: MediumSeaGreen;
   color: black;
